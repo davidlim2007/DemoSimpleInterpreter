@@ -1,0 +1,18 @@
+## Set the variable 'a' to value 100
+SET a = 100
+
+// Set the variable 'b' to value 200
+SET b = 200
+
+## Set the variable 'c' to the value in 'a'.
+SET c = a
+
+// Add value 300 to 'c'.
+ADD c, 300
+
+## Print out values of 'a', 'b', 'c'.
+GET a
+GET b
+GET c
+
+EXIT
